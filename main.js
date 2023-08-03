@@ -1,4 +1,20 @@
 import './style.css'
+import { initializeApp } from "firebase/app"
+import { getDatabase, ref, set } from "firebase/database"
+import { v4 as uuidv4 } from 'uuid'
+
+const firebaseConfig = {
+    apiKey: "AIzaSyCrCVUHKYZDsmV_5oCIQdDxyP2tZZp1Lx8",
+    authDomain: "ms-law-associates.firebaseapp.com",
+    projectId: "ms-law-associates",
+    storageBucket: "ms-law-associates.appspot.com",
+    messagingSenderId: "831614462631",
+    appId: "1:831614462631:web:ab21c8a29830c8aa434982"
+  };
+
+const app = initializeApp(firebaseConfig);
+const database = getDatabase(app);
+const userId = uuidv4();
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -160,12 +176,12 @@ document.querySelector('#app').innerHTML = `
       <p class="text-3xl playfairfont text-[rgba(0,0,0,0.7)] pt-20">Free Consultation</p>
       <p class="text-[rgba(0,0,0,0.4)] font-[Poppins] mt-5 text-sm 2xs:text-lg w-[80%] m-auto">Law is complicate matter. It can cause you a big problem if you ignore it. Let us help you!</p>
   </div>
-  <form id="contactform" class="w-[95%] lg:w-[85%] m-auto mt-10" onsubmit="formSubmitHandler(event)">
-      <input type="text" placeholder="Name*" name="name" class="w-60 2xs:w-80 h-16 bg-[#f3f3f3] rounded-sm border-0 pl-8 max-md:m-auto max-md:block">
-      <input type="text" placeholder="Phone*" name="phone" class="w-60 2xs:w-80 h-16 bg-[#f3f3f3] rounded-sm max-md:translate-y-2 md:ml-3 border-0 pl-8 max-md:m-auto max-md:block">
-      <input type="text" placeholder="Subject*" name="subject" class="w-60 2xs:w-80 h-16 bg-[#f3f3f3] rounded-sm border-0 pl-8 md:mt-10 max-md:translate-y-4 max-md:m-auto max-md:block">
-      <input type="text" placeholder="Email*" name="email" class="w-60 2xs:w-80 h-16 bg-[#f3f3f3] rounded-sm ml-3 border-0 pl-8 md:mt-10 max-md:translate-y-6 max-md:m-auto max-md:block">
-      <input type="text" placeholder="Message*" name="message" class="w-60 2xs:w-[320px] md:w-[660px] h-40 bg-[#f3f3f3] rounded-sm border-0 pl-8 md:mt-8 max-md:translate-y-8 max-md:m-auto max-md:block">
+  <form id="contactform" class="w-[95%] lg:w-[85%] m-auto mt-10">
+      <input type="name" placeholder="Name*" name="name" class="w-60 2xs:w-80 h-16 bg-[#f3f3f3] rounded-sm border-0 pl-8 max-md:m-auto max-md:block">
+      <input type="phone" placeholder="Phone*" name="phone" class="w-60 2xs:w-80 h-16 bg-[#f3f3f3] rounded-sm max-md:translate-y-2 md:ml-3 border-0 pl-8 max-md:m-auto max-md:block">
+      <input type="subject" placeholder="Subject*" name="subject" class="w-60 2xs:w-80 h-16 bg-[#f3f3f3] rounded-sm border-0 pl-8 md:mt-10 max-md:translate-y-4 max-md:m-auto max-md:block">
+      <input type="email" placeholder="Email*" name="email" class="w-60 2xs:w-80 h-16 bg-[#f3f3f3] rounded-sm ml-3 border-0 pl-8 md:mt-10 max-md:translate-y-6 max-md:m-auto max-md:block">
+      <input type="message" placeholder="Message*" name="message" class="w-60 2xs:w-[320px] md:w-[660px] h-40 bg-[#f3f3f3] rounded-sm border-0 pl-8 md:mt-8 max-md:translate-y-8 max-md:m-auto max-md:block">
       <button type="submit" class="text-white h-14 w-[240px] 2xs:w-[320px] md:w-[660px] bg-[#3C3E6B] mt-8 font-[Poppins] font-bold text-lg max-md:translate-y-12 max-md:m-auto max-md:block">SUBMIT</button>
   </form>
 </div>
@@ -361,3 +377,19 @@ function mainslideshow() {
       pic = "picture 1";
   }
 }
+
+document.getElementById('contactform').addEventListener('submit', function (event) {
+  event.preventDefault();
+  const name = event.target.name.value;
+  const email = event.target.email.value;
+  const phone = event.target.phone.value;
+  const subject = event.target.subject.value;
+  const message = event.target.message.value;
+  set(ref(database, 'interested/' + userId), {
+    name: name,
+    email: email,
+    phone: phone,
+    subject: subject,
+    message: message,
+  });
+});
