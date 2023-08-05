@@ -41,9 +41,9 @@ document.querySelector('#app').innerHTML = `
       <img src="images/logo-.png" width="200px" class="block md:hidden">
       <ul id="menu" class="md:inline-flex gap-10 bg-[rgba(48,51,88,0.8)] md:bg-transparent max-md:fixed max-md:h-[770px] max-md:mt-[834px] max-md:w-[50%] max-md:right-0 md:translate-x-0 translate-x-full max-md:transition-all max-md:duration-500">
           <li class="hover:text-[#ffffff] transition duration-500 max-md:ml-5"><a href="#home">Home</a></li>
-          <li class="hover:text-[#ffffff] transition duration-500 max-md:mt-5 max-md:ml-5"><a href="#about">About</a></li>
+          <li class="hover:text-[#ffffff] transition duration-500 max-md:mt-5 max-md:ml-5"><a href="about.html">About</a></li>
           <li class="hover:text-[#ffffff] transition duration-500 max-md:mt-5 max-md:ml-5"><a href="#practiceareas">Practice Areas</a></li>
-          <li class="hover:text-[#ffffff] transition duration-500 max-md:mt-5 max-md:ml-5"><a href="#associates">Associates</a></li>
+          <!--<li class="hover:text-[#ffffff] transition duration-500 max-md:mt-5 max-md:ml-5"><a href="#associates">Associates</a></li>-->
           <li class="hover:text-[#ffffff] transition duration-500 max-md:mt-5 max-md:ml-5"><a href="#contact">Contact Us</a></li>
       </ul>
       <div id="searchicon" class="hover:text-[#ffffff] transition duration-500 hidden md:block"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></div>
@@ -122,7 +122,7 @@ document.querySelector('#app').innerHTML = `
       </div>
   </div>
 </div>
-<div id="associates" class="w-full m-auto bg-[#f3f3f3]"  data-aos="fade">
+<!--  <div id="associates" class="w-full m-auto bg-[#f3f3f3]"  data-aos="fade">
   <div class="text-center pt-16">
       <div class="text-black text-4xl font-serif">Associates</div>
       <div class="text-[#7e7e7e] text-sm font-bold font-[Poppins] mt-3"><a href="">VIEW ALL THE PEOPLE<i class="fa-solid fa-arrow-right ml-2"></i></a></div>
@@ -148,12 +148,12 @@ document.querySelector('#app').innerHTML = `
               <p class="text-sm font-[Poppins] text-[#9D9D9D] text-center">ASSOCIATE</p>
           </div>
       </div>
-      <!-- <div id="partnersslidebtn" class="flex items-center w-20 m-auto mt-14">
+      <div id="partnersslidebtn" class="flex items-center w-20 m-auto mt-14">
           <button id="partnerbtnleft" class="py-4 px-6 bg-[#EFEFEF] text-[#3A3E7F]"><i class="fa-solid fa-chevron-left"></i></button>
           <button id="partnerbtnright" class="p-4 px-6 bg-[#EFEFEF] text-[#3A3E7F] ml-2"><i class="fa-solid fa-chevron-right"></i></button>
-      </div> -->
+      </div>
   </div>
-</div>
+</div> -->
 <div class="min-h-[708px] w-full bg-[#EFEFEF] relative z-[5] mt-[770px] sm:mt-[290px] lg:mt-[0px]">
 <div id="testimonial" class="w-[100%] xs:w-[500px] sm:w-[600px] md:w-[700px] lg:w-[960px] xl:w-[1200px] h-[1050px] 3xs:h-[950px] xs:h-[708px] bg-[rgba(60,62,107,1)] m-auto">
   <img src="images/bg-6.jpg" class="w-[100%] xs:w-[500px] sm:w-[600px] md:w-[700px] lg:w-[960px] xl:w-[1200px] h-[1050px] 3xs:h-[950px] xs:h-[708px] absolute opacity-30">
@@ -263,7 +263,7 @@ document.querySelector('#app').innerHTML = `
 </div>
 <div id="footer2" class="w-full min-h-[77px] bg-[#111111] xs:flex items-center justify-between 2xs:px-6 md:px-14 lg:px-32">
   <p class="font-[Poppins] text-xs 2xs:text-sm sm:text-lg text-[#adadad] max-3xs:w-[270px] max-2xs:w-[290px] max-2xs:m-auto">Copyright 2023 M.S. Law Associates, All Rights Reserved</p>
-  <p class="font-[Poppins] text-xs 2xs:text-sm sm:text-lg text-[#858585] max-3xs:w-[270px] max-2xs:w-[290px] max-2xs:m-auto"><a href="" class="mr-3 2xs:mr-8">Home</a><a href="" class="mr-3 2xs:mr-8">Cases</a><a href="" class="mr-3 2xs:mr-8">About</a><a href="" class="mr-3 2xs:mr-8">Legal</a><a href="" class="">Privacy & Policy</a></p>
+  <p class="font-[Poppins] text-xs 2xs:text-sm sm:text-lg text-[#858585] max-3xs:w-[270px] max-2xs:w-[290px] max-2xs:m-auto"><a href="" class="mr-3 2xs:mr-8">Home</a><a href="" class="mr-3 2xs:mr-8">About</a><a href="" class="">Privacy & Policy</a></p>
 </div>
 <div class="hidden max-md:mt-[720px] translate-x-full"></div>
   </div>
