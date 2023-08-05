@@ -57,21 +57,21 @@ document.querySelector('#app').innerHTML = `
       <div id="m1content1" class="max-xs:text-center transition-all duration-300">
           <div data-aos="fade-down" class="text-[30px] 2xs:text-[35px] xs:text-[40px] md:text-[60px] lg:text-[80px] font-bold font-serif text-white">M.S. Law Associates</div>
           <div data-aos="fade-down" class="w-20 h-1 bg-white rounded-xl max-xs:m-auto"></div>
-          <div data-aos="fade-down" class="mt-10 text-sm 2xs:text-lg text-white font-[Poppins]">We are a leading law firm with more than 20 years of experience</div>
-          <div class="text-sm mt-10 text-blue-950 font-bold"><button onclick="window.location.href='#contact'" class="py-4 pl-8 pr-5 bg-white rounded-md hover:bg-transparent hover:border-[1px] hover:border-white hover:text-white transition duration-300">CONTACT NOW<i class="fa-solid fa-arrow-right fa-fade ml-2"></i></button></div>
+          <div data-aos="fade-down" class="mt-10 text-xs 2xs:text-lg text-white font-[Poppins]">Welcome to M.S. Law Associates a dedicated team of legal professionals offering expert counsel and representation in various areas of law. With our in-depth knowledge and experience, we strive to provide effective solutions tailored to our clients' unique needs. </div>
+          <div class="text-sm mt-6 text-blue-950 font-bold"><button onclick="window.location.href='#contact'" class="py-4 pl-8 pr-5 bg-white rounded-md hover:bg-transparent hover:border-[1px] hover:border-white hover:text-white transition duration-300">CONTACT NOW<i class="fa-solid fa-arrow-right fa-fade ml-2"></i></button></div>
       </div>
       <div id="m1content2" class="max-xs:text-center hidden transition-all duration-300">
           <div data-aos="fade-down" class="text-[30px] 2xs:text-[35px] xs:text-[40px] md:text-[60px] lg:text-[80px] font-bold font-serif text-white">Professional Law Firm</div>
           <div data-aos="fade-down" class="w-20 h-1 bg-white rounded-xl max-xs:m-auto"></div>
-          <div data-aos="fade-down" class="mt-10 text-sm 2xs:text-lg text-white font-[Poppins]">We are a leading law firm with more than 20 years of experience</div>
-          <div class="text-sm mt-10 text-blue-950 font-bold"><button onclick="window.location.href='#contact'" class="py-4 pl-8 pr-5 bg-white rounded-md hover:bg-transparent hover:border-[1px] hover:border-white hover:text-white transition duration-300">CONTACT NOW<i class="fa-solid fa-arrow-right fa-fade ml-2"></i></button></div>
+          <div data-aos="fade-down" class="mt-10 text-xs 2xs:text-lg text-white font-[Poppins]">Professionalism is the cornerstone of our practice. As a professional law firm, we are committed to delivering exceptional legal services with the utmost integrity, ethics, and client focus. Our team of experienced attorneys embodies the key principles that define our professionalism, such as Expertise and Competence, Ethical Practice, Client-Centric Approach etc.</div>
+          <div class="text-sm mt-6 text-blue-950 font-bold"><button onclick="window.location.href='#contact'" class="py-4 pl-8 pr-5 bg-white rounded-md hover:bg-transparent hover:border-[1px] hover:border-white hover:text-white transition duration-300">CONTACT NOW<i class="fa-solid fa-arrow-right fa-fade ml-2"></i></button></div>
       </div>
   </div>
 </div>
 <div id="about" class="h-[450px] xs:h-[539px] md:h-[385px] md:flex items-center w-[250px] 3xs:w-[290px] 2xs:w-[380px] xs:w-[500px] sm:w-[600px] md:w-[700px] lg:w-[960px] xl:w-[1200px] bg-[#3C3E6B] m-auto relative z-10 rounded-md">
   <div class="md:w-[50%] md:h-full" data-aos="fade-up">
       <div class="font-serif text-2xl font-bold text-white pt-10 max-2xs:text-center 2xs:pl-14">About M.S. Law Associates</div>
-      <div class="w-[95%] sm:w-[80%] max-2xs:text-center max-2xs:m-auto 2xs:pl-14 text-[16px] md:text-[14px] lg:text-[16px] font-[Poppins] text-[rgba(255,255,255,0.5)]"><p class="mt-7">We can provide corporate governance, helping clients manage the responsibilities of running a corporation in financial field. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p></div>
+      <div class="w-[95%] sm:w-[80%] max-2xs:text-center max-2xs:m-auto 2xs:pl-14 text-[16px] md:text-[14px] lg:text-[16px] font-[Poppins] text-[rgba(255,255,255,0.5)]"><p class="mt-7">At M.S. Law Associates, our commitment to excellence and client satisfaction is unwavering. We prioritize clear communication, personalized attention, and results-driven advocacy. Contact us today to schedule a consultation and discover how we can assist you with your legal needs.</p></div>
       <div></div>
       <div class="text-[#AB968A] max-2xs:text-center 2xs:pl-14 mt-20 xs:mt-14 lg:mt-28 font-bold">Muhammad Barjees Tahir</div>
   </div>
@@ -87,38 +87,38 @@ document.querySelector('#app').innerHTML = `
       <div class="bg-white h-[400px] shadow-2xl rounded-lg text-center p-5 md:p-12 hover:-mt-5 transition-all duration-300">
           <div class=""><img src="images/practice-area-1.png" class="m-auto" data-aos="fade-down"></div>
           <p class="font-serif text-2xl mt-8" data-aos="fade-down">Taxation Law</p>
-          <p class="text-[#868686] font-[Poppins] text-[16px] mt-8" data-aos="fade-down">We can provide corporate governance, helping clients manage the responsibilities of running a corporation in financial field.</p>
-          <p class="text-[#AB968A] font-[Poppins] text-sm font-bold mt-8" data-aos="fade-down"><a href="">LEARN MORE<i class="fa-solid fa-arrow-right ml-2"></i></a></p>
+          <p class="text-[#868686] font-[Poppins] text-[16px] mt-8" data-aos="fade-down">Our skilled tax attorneys are well-versed in navigating the complexities of tax laws. Whether you need assistance ...</p>
+          <p class="text-[#AB968A] font-[Poppins] text-sm font-bold mt-8" data-aos="fade-down"><a href="practiceareas.html">LEARN MORE<i class="fa-solid fa-arrow-right ml-2"></i></a></p>
       </div>
       <div class="bg-[#3C3E6B] h-[400px] shadow-2xl rounded-lg text-center p-5 md:p-12 hover:-mt-5 transition-all duration-300">
           <div class=""><img src="images/practice-area-2.png" class="m-auto" data-aos="fade-down"></div>
           <p class="font-serif text-2xl mt-8 text-white" data-aos="fade-down">Corporate Law</p>
-          <p class="text-[#B5B8DE] font-[Poppins] text-[16px] mt-8" data-aos="fade-down">We can provide corporate governance, helping clients manage the responsibilities of running a corporation in financial field.</p>
-          <p class="text-white font-[Poppins] text-sm font-bold mt-8" data-aos="fade-down"><a href="">LEARN MORE<i class="fa-solid fa-arrow-right ml-2"></i></a></p>
+          <p class="text-[#B5B8DE] font-[Poppins] text-[16px] mt-8" data-aos="fade-down">Our corporate lawyers provide comprehensive legal services to businesses of all sizes. From startup formation to mergers ...</p>
+          <p class="text-white font-[Poppins] text-sm font-bold mt-8" data-aos="fade-down"><a href="practiceareas.html">LEARN MORE<i class="fa-solid fa-arrow-right ml-2"></i></a></p>
       </div>
       <div class="bg-white h-[400px] shadow-2xl rounded-lg text-center p-5 md:p-12 hover:-mt-5 transition-all duration-300">
           <div class=""><img src="images/practice-area-3.png" class="m-auto" data-aos="fade-down"></div>
           <p class="font-serif text-2xl mt-8" data-aos="fade-down">Family Law</p>
-          <p class="text-[#868686] font-[Poppins] text-[16px] mt-8" data-aos="fade-down">We can provide corporate governance, helping clients manage the responsibilities of running a corporation in financial field.</p>
-          <p class="text-[#AB968A] font-[Poppins] text-sm font-bold mt-8" data-aos="fade-down"><a href="">LEARN MORE<i class="fa-solid fa-arrow-right ml-2"></i></a></p>
+          <p class="text-[#868686] font-[Poppins] text-[16px] mt-8" data-aos="fade-down">We understand the sensitive nature of family matters. Our compassionate family lawyers provide guidance and ...</p>
+          <p class="text-[#AB968A] font-[Poppins] text-sm font-bold mt-8" data-aos="fade-down"><a href="practiceareas.html">LEARN MORE<i class="fa-solid fa-arrow-right ml-2"></i></a></p>
       </div>
       <div class="bg-[#3C3E6B] h-[400px] shadow-2xl rounded-lg text-center p-5 md:p-12 hover:-mt-5 transition-all duration-300">
           <div class=""><img src="images/practice-area-4.png" class="m-auto" data-aos="fade-down"></div>
           <p class="text-white font-serif text-2xl mt-8" data-aos="fade-down">Civil Law</p>
-          <p class="text-[#B5B8DE] font-[Poppins] text-[16px] mt-8" data-aos="fade-down">We can provide corporate governance, helping clients manage the responsibilities of running a corporation in financial field.</p>
-          <p class="text-white font-[Poppins] text-sm font-bold mt-8" data-aos="fade-down"><a href="">LEARN MORE<i class="fa-solid fa-arrow-right ml-2"></i></a></p>
+          <p class="text-[#B5B8DE] font-[Poppins] text-[16px] mt-8" data-aos="fade-down">When faced with civil disputes, our experienced attorneys are committed to protecting your rights and advocating for ...</p>
+          <p class="text-white font-[Poppins] text-sm font-bold mt-8" data-aos="fade-down"><a href="practiceareas.html">LEARN MORE<i class="fa-solid fa-arrow-right ml-2"></i></a></p>
       </div>
       <div class="bg-white h-[400px] shadow-2xl rounded-lg text-center p-5 md:p-12 hover:-mt-5 transition-all duration-300">
           <div class=""><img src="images/practice-area-5.png" class="m-auto" data-aos="fade-down"></div>
           <p class="font-serif text-2xl mt-8" data-aos="fade-down">Criminal Law</p>
-          <p class="text-[#868686] font-[Poppins] text-[16px] mt-8" data-aos="fade-down">We can provide corporate governance, helping clients manage the responsibilities of running a corporation in financial field.</p>
-          <p class="text-[#AB968A] font-[Poppins] text-sm font-bold mt-8" data-aos="fade-down"><a href="">LEARN MORE<i class="fa-solid fa-arrow-right ml-2"></i></a></p>
+          <p class="text-[#868686] font-[Poppins] text-[16px] mt-8" data-aos="fade-down">If you're facing criminal charges, our dedicated criminal defense team is prepared to vigorously defend your rights. We work ...</p>
+          <p class="text-[#AB968A] font-[Poppins] text-sm font-bold mt-8" data-aos="fade-down"><a href="practiceareas.html">LEARN MORE<i class="fa-solid fa-arrow-right ml-2"></i></a></p>
       </div>
       <div class="bg-[#3C3E6B] h-[400px] shadow-2xl rounded-lg text-center p-5 md:p-12 hover:-mt-5 transition-all duration-300">
           <div class=""><img src="images/practice-area-6.png" class="m-auto" data-aos="fade-down"></div>
           <p class="text-white font-serif text-2xl mt-8" data-aos="fade-down">Customs Law</p>
-          <p class="text-[#B5B8DE] font-[Poppins] text-[16px] mt-8" data-aos="fade-down">We can provide corporate governance, helping clients manage the responsibilities of running a corporation in financial field.</p>
-          <p class="text-white font-[Poppins] text-sm font-bold mt-8" data-aos="fade-down"><a href="">LEARN MORE<i class="fa-solid fa-arrow-right ml-2"></i></a></p>
+          <p class="text-[#B5B8DE] font-[Poppins] text-[16px] mt-8" data-aos="fade-down">Our customs law experts assist businesses and individuals with customs compliance matters. Whether it's import/export regulations ...</p>
+          <p class="text-white font-[Poppins] text-sm font-bold mt-8" data-aos="fade-down"><a href="practiceareas.html">LEARN MORE<i class="fa-solid fa-arrow-right ml-2"></i></a></p>
       </div>
   </div>
 </div>
@@ -163,8 +163,8 @@ document.querySelector('#app').innerHTML = `
           <p class="playfairfont text-white text-3xl 2xs:text-4xl xs:text-3xl mt-2">Words From Clients</p>
           <div class="w-14 h-[2px] bg-white m-auto mt-10"></div>
           <div class="text-[100px] xs:text-[50px] sm:text-[100px] text-white m-auto mt-5"><i class="fa-solid fa-quote-left"></i></div>
-          <p class="text-[#C8CAF6] italic mt-3 text-[20px] 2xs:text-[22px] xs:text-[16px] lg:text-[20px] w-[90%] m-auto">I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary,</p>
-          <p class="playfairfont text-white text-lg mt-8">Sheikh Arif Iqbal</p>
+          <p class="text-[#C8CAF6] italic mt-3 text-[20px] 2xs:text-[22px] xs:text-[16px] lg:text-[20px] w-[90%] m-auto">I am incredibly grateful for M.S. Law Associate's exceptional legal representation. Their professionalism and expertise put me at ease during a challenging time. They provided personalized attention, promptly addressed my concerns, and their strategic approach led to a favorable outcome. I highly recommend [Law Firm Name] to anyone seeking top-notch legal services. Their commitment to their clients is truly commendable.</p>
+          <p class="playfairfont text-white text-lg mt-6">Sheikh Arif Iqbal</p>
           <p class="text-[#C8CAF6] font-[Poppins] mt-2">CEO</br>HI Profile International</p>
       </div>
   </div>
@@ -175,8 +175,9 @@ document.querySelector('#app').innerHTML = `
   <div class="text-center w-full">
       <p class="text-3xl playfairfont text-[rgba(0,0,0,0.7)] pt-20">Free Consultation</p>
       <p class="text-[rgba(0,0,0,0.4)] font-[Poppins] mt-5 text-sm 2xs:text-lg w-[80%] m-auto">Law is complicate matter. It can cause you a big problem if you ignore it. Let us help you!</p>
+      <p id="msgsent" class="font-[Poppins] mt-0 text-sm 2xs:text-lg w-[80%] m-auto hidden" style="color: #139128;">Message Sent</p>
   </div>
-  <form id="contactform" class="w-[95%] lg:w-[85%] m-auto mt-10">
+  <form id="contactform" class="w-[95%] lg:w-[85%] m-auto mt-8">
       <input type="name" placeholder="Name*" name="name" class="w-60 2xs:w-80 h-16 bg-[#f3f3f3] rounded-sm border-0 pl-8 max-md:m-auto max-md:block">
       <input type="phone" placeholder="Phone*" name="phone" class="w-60 2xs:w-80 h-16 bg-[#f3f3f3] rounded-sm max-md:translate-y-2 md:ml-3 border-0 pl-8 max-md:m-auto max-md:block">
       <input type="subject" placeholder="Subject*" name="subject" class="w-60 2xs:w-80 h-16 bg-[#f3f3f3] rounded-sm border-0 pl-8 md:mt-10 max-md:translate-y-4 max-md:m-auto max-md:block">
@@ -207,22 +208,20 @@ document.querySelector('#app').innerHTML = `
   <img  data-aos="fade-right" src="images/clientchose.png" class="w-[250px] 2xs:w-[350px] xs:w-[400px] sm:w-[500px] md:w-[300px] lg:w-[400px] xl:w-[500px] py-[170px] lg:py-[150px] xl:py-[100px] ml-10 lg:ml-14 xl:ml-44 max-md:m-auto max-md:mt-[-200px]">
   <div  data-aos="fade-left" class="ml-10 lg:ml-14 xl:ml-20 max-md:translate-y-[-100px] md:mt-36 w-[250px] 2xs:w-[380px] xs:w-[450px] sm:w-[500px] md:w-[340px] lg:w-[400px] max-md:m-auto">
       <p class="text-[#bbbbbb] text-[16px] font-bold font-[Poppins]">WHAT WE ARE EXPERT AT</p>
-      <p class="text-black text-[30px] lg:text-[36px] mt-3 playfairfont">Why Clients Choose Us</p>
-      <p class="bg-[#AA8D70] h-[2px] w-14 mt-8"></p>
-      <p class="text-[#3A3E7F] text-[18px] lg:text-[20px] font-[Poppins] mt-16">We can provide corporate governance, helping clients manage the responsibilities of running a corporation in financial field.</p>
-      <p class="text-[#bbbbbb] text-[16px] lg:text-[18px] font-[Poppins] mt-10">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows.</p>
-      <p class="text-[#3A3E7F] font-[Poppins] text-sm font-bold mt-8"><a href="">LEARN MORE<i class="fa-solid fa-arrow-right ml-2"></i></a></p>
+      <p class="text-black text-[30px] lg:text-[36px] mt-2 playfairfont">Why Clients Choose Us</p>
+      <p class="text-[#3A3E7F] text-[18px] lg:text-[20px] font-[Poppins] mt-6">We take immense pride in being the preferred choice for clients seeking exceptional legal representation and personalized solutions.</p>
+      <p class="text-[#bbbbbb] text-[16px] lg:text-[18px] font-[Poppins] mt-5">Our team of highly skilled and experienced attorneys brings a wealth of legal expertise across various practice areas. We understand the complexities of the law and strive to deliver well-informed strategies tailored to your specific needs. We believe that every client is unique, and we take the time to understand your individual circumstances and objectives. You can count on us to listen to your concerns, address your questions, and keep you informed throughout the legal process as your success is our top priority.</p>
   </div>
 </div>
 <div id="contactinfo&map" class="w-full min-h-[650px] lg:flex">
   <div id="contactinfo" class="w-[100%] xs:w-[500px] sm:w-[600px] md:w-[700px] lg:w-[50%] h-[100%] bg-[#EFEFEF] xs:pl-14 xl:pl-24 2xl:pl-44 m-auto lg:m-0">
       <p class="playfairfont text-[rgba(0,0,0,0.7)] text-3xl pt-36 max-3xs:w-[250px] max-2xs:w-[270px] max-xs:w-[390px] mx-auto">Contact Info</p>
       <p class="w-14 h-[2px] bg-[#3a3e7f] mt-5 max-2xs:ml-16 max-xs:ml-5"></p>
-      <p class="text-lg 2xs:text-xl font-[Poppins] text-[#3a3e7f] mt-16 max-3xs:w-[250px] max-2xs:w-[270px] max-xs:w-[390px] max-xs:mx-auto">Call Now : +92-42-37229000</p>
-      <p class="text-[#7a7a7a] font-[Poppins] text-[16px] 2xs:text-[18px] max-3xs:w-[250px] mt-16 max-2xs:w-[270px] max-xs:w-[390px] max-xs:mx-auto"><i class="fa-regular fa-envelope mr-5 text-[#3a3e7f]"></i>mslawassociates@live.com</p>
-      <p class="text-[#7a7a7a] font-[Poppins] text-lg mt-5 max-2xs:w-[270px] max-3xs:w-[250px] max-xs:w-[390px] max-xs:mx-auto"><i class="fa-solid fa-clock mr-5 text-[#3a3e7f]"></i>Mon - Fri 09:00-17:00</p>
-      <p class="text-[#7a7a7a] font-[Poppins] text-lg mt-5 max-2xs:w-[270px] max-3xs:w-[250px] max-xs:w-[390px] max-xs:mx-auto"><i class="fa-solid fa-location-arrow mr-5 text-[#3a3e7f]"></i>1st Floor, Aftab Tower, A.G. Office Chowk, Lahore.</p>
-      <p class="text-[#9b9b9b] font-[Poppins] text-lg mt-10 max-2xs:w-[270px] max-3xs:w-[250px] max-xs:w-[390px] max-xs:mx-auto">Far far away, behind the word mountains, far from thte countries Vokalia and Consonantia, there live the blind texts.</p>
+      <p class="text-lg 2xs:text-xl font-[Poppins] text-[#3a3e7f] mt-16 max-3xs:w-[250px] max-2xs:w-[270px] max-xs:w-[390px] max-xs:mx-auto">Call Now : +92-322-6169000</p>
+      <p class="text-[#7a7a7a] font-[Poppins] text-[16px] 2xs:text-[18px] max-3xs:w-[250px] mt-10 max-2xs:w-[270px] max-xs:w-[390px] max-xs:mx-auto"><i class="fa-regular fa-envelope mr-5 text-[#3a3e7f]"></i>mslawassociates@live.com</p>
+      <p class="text-[#7a7a7a] font-[Poppins] text-lg mt-3 max-2xs:w-[270px] max-3xs:w-[250px] max-xs:w-[390px] max-xs:mx-auto"><i class="fa-solid fa-clock mr-5 text-[#3a3e7f]"></i>Mon - Fri 09:00-17:00</p>
+      <p class="text-[#7a7a7a] font-[Poppins] text-lg mt-3 max-2xs:w-[270px] max-3xs:w-[250px] max-xs:w-[390px] max-xs:mx-auto"><i class="fa-solid fa-location-arrow mr-5 text-[#3a3e7f]"></i>1st Floor, Aftab Tower, A.G. Office Chowk, Lahore.</p>
+      <p class="text-[#9b9b9b] font-[Poppins] text-lg mt-8 max-2xs:w-[270px] max-3xs:w-[250px] max-xs:w-[390px] max-xs:mx-auto">Choosing the right legal representation is critical, and we are honored that you are considering M.S. Law Associates. With us, you will have a dedicated and passionate team fighting for your rights and best interests. We invite you to contact us today for a consultation and experience the difference firsthand.</p>
       <input type="text" placeholder="Your Email Address" class="h-16 w-[270px] max-3xs:w-[250px] 2xs:w-[390px] xs:w-[300px] xl:w-[400px] bg-white shadow-lg border-0 mt-10 pl-10 max-xs:mx-auto max-xs:block">
       <button class="h-16 w-[250px] 3xs:w-[270px] 2xs:w-[390px] xs:w-[90px] xl:w-[170px] bg-[#3a3e7f] font-bold text-white -ml-1 shadow-lg max-xs:mx-auto max-xs:block">SUBMIT</button>
   </div>
@@ -263,7 +262,7 @@ document.querySelector('#app').innerHTML = `
 </div>
 <div id="footer2" class="w-full min-h-[77px] bg-[#111111] xs:flex items-center justify-between 2xs:px-6 md:px-14 lg:px-32">
   <p class="font-[Poppins] text-xs 2xs:text-sm sm:text-lg text-[#adadad] max-3xs:w-[270px] max-2xs:w-[290px] max-2xs:m-auto">Copyright 2023 M.S. Law Associates, All Rights Reserved</p>
-  <p class="font-[Poppins] text-xs 2xs:text-sm sm:text-lg text-[#858585] max-3xs:w-[270px] max-2xs:w-[290px] max-2xs:m-auto"><a href="" class="mr-3 2xs:mr-8">Home</a><a href="" class="mr-3 2xs:mr-8">About</a><a href="" class="">Privacy & Policy</a></p>
+  <p class="font-[Poppins] text-xs 2xs:text-sm sm:text-lg text-[#858585] max-3xs:w-[270px] max-2xs:w-[290px] max-2xs:m-auto"><a href="/" class="mr-3 2xs:mr-8">Home</a><a href="about.html" class="mr-3 2xs:mr-8">About</a><a href="privacypolicy.html" class="">Privacy & Policy</a></p>
 </div>
 <div class="hidden max-md:mt-[720px] translate-x-full"></div>
   </div>
@@ -377,7 +376,7 @@ function mainslideshow() {
       pic = "picture 1";
   }
 }
-
+var msgsend = 0;
 document.getElementById('contactform').addEventListener('submit', function (event) {
   event.preventDefault();
   const name = event.target.name.value;
@@ -386,10 +385,19 @@ document.getElementById('contactform').addEventListener('submit', function (even
   const subject = event.target.subject.value;
   const message = event.target.message.value;
   set(ref(database, 'interested/' + userId), {
-    name: name,
-    email: email,
-    phone: phone,
-    subject: subject,
-    message: message,
-  });
+      name: name,
+      email: email,
+      phone: phone,
+      subject: subject,
+      message: message,
+    });
+  msgsend = 1;
+    if (msgsend == 1) {
+    document.getElementById('msgsent').classList.remove('hidden');
+    event.target.name.value = "";
+    event.target.email.value = "";
+    event.target.phone.value = "";
+    event.target.subject.value = "";
+    event.target.message.value = "";
+  }
 });

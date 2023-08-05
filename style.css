@@ -70,6 +70,10 @@ body {
 3. Ensure horizontal rules are visible by default.
 */
 
+.mt-3 {
+  margin-top: 12px;
+}
+
 hr {
   height: 0;
   /* 1 */
