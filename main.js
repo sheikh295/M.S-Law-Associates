@@ -16,10 +16,6 @@ const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 const userId = uuidv4();
 
-document.querySelector('#app').innerHTML = `
-
-`
-
 window.addEventListener('scroll', function() {
   var scrollvalue = scrollY
   if (scrollY >= 50) {

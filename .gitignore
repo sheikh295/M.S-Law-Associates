@@ -24,8 +24,14 @@ dist-ssr
 *.sw?
 
 fontawesome
+*.css
+.fontawesome/*
 
-images
+.images/*
+*.jpg
+*.jpeg
+*.png
 
 public
+.public/*
 *.svg
