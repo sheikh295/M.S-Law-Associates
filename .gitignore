@@ -22,16 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-fontawesome
-*.css
-.fontawesome/*
-
-.images/*
-*.jpg
-*.jpeg
-*.png
-
-public
-.public/*
-*.svg
